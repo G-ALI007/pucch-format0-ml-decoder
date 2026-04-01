@@ -1,0 +1,40 @@
+======================================================================
+PUCCH Format 0 - Multi-User ML Decoder Experiment Summary
+======================================================================
+
+--- Experiment Configuration ---
+Scenario: 2users
+Number of Users: 2
+Target User m0: 0
+Training SNR: 10 dB
+SNR values tested: [0, 5, 10, 15, 20]
+Train/Val split: 0.75/0.25
+Normalize features: True
+
+--- Neural Network Architecture ---
+Input size: 24
+Hidden layers: [128, 128]
+Hidden activation: relu
+Dropout rate: 0.3
+Output size: 4
+Output activation: softmax
+
+--- Training Parameters ---
+Epochs: 300
+Batch size: 256
+Optimizer: SGD (lr=0.0005, momentum=0.9)
+Loss: categorical_crossentropy
+Training time: 735.86 seconds (12.26 min)
+Epochs completed: 300
+Best validation accuracy: 97.36% at epoch 300
+
+--- Results ---
+SNR (dB)  NN Acc (%)  Corr Acc (%)  Gain (%)  
+----------------------------------------------
+0         64.69       41.52         +23.17    
+5         88.03       47.62         +40.42    
+10        97.36       51.13         +46.23    
+15        98.14       52.59         +45.55    
+20        98.23       53.11         +45.12    
+
+======================================================================

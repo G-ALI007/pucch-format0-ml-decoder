@@ -1,0 +1,6 @@
+SNR_dB,System_A_4Class_pct,System_B_5Class_pct,System_C_TwoStage_Overall_pct,System_C_TwoStage_UCI_pct,System_C_DTX_Detection_pct,System_C_False_Alarm_pct,System_C_Missed_Detection_pct,3GPP_FA_Pass,3GPP_MD_Pass
+0,84.0925,67.3528,71.0968,82.0245,27.3860,72.6140,4.9905,False,False
+5,94.3890,78.5364,85.3700,88.6725,72.1600,27.8400,8.9960,False,False
+10,98.2300,95.6584,92.6960,93.1945,90.7020,9.2980,6.4800,False,False
+15,99.4470,95.3172,96.2696,95.3405,99.9860,0.0140,4.6560,True,False
+20,99.6275,95.0552,96.4304,95.5380,100.0000,0.0000,4.4620,True,False
